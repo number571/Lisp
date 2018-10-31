@@ -1,1 +1,1 @@
-# Lisp
+# Scheme
