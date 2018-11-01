@@ -1,7 +1,5 @@
 (define dx 0.00001)
 
-(define (average x y) (/ (+ x y) 2))
-
 (define (square x) (* x x))
 
 (define (fixed-point f first-guess)
