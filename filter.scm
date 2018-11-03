@@ -1,0 +1,6 @@
+(define (filter f xs)
+    (cond ((null? xs) null)
+          ((f (car xs)) 
+                (cons (car xs) 
+                      (filter f (cdr xs))))
+          (else (filter f (cdr xs)))))
